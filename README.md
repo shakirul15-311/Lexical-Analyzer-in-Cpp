@@ -4,3 +4,24 @@ Compiler is responsible for converting high level language in machine language. 
 
 Lexical analyzer reads the characters from source code and convert it into tokens.
 
+
+Different tokens or lexemes are:
+
+Keywords
+Identifiers
+Operators
+Constants
+Take below example.
+
+c = a + b;
+
+After lexical analysis a symbol table is generated as given below.
+
+Token	Type
+c	identifier
+=	operator
+a	identifier
++	operator
+b	identifier
+;	separator
+
