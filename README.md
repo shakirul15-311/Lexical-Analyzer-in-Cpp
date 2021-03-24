@@ -1,9 +1,6 @@
-# Lexical-Analyzer-in-C-
-Here you will get program to implement lexical analyzer in  C++
-Compiler is responsible for converting high level language in machine language. There are several phases involved in this and lexical analysis is the first phase.
-
-Lexical analyzer reads the characters from source code and convert it into tokens.
-
+# Lexical-Analyzer-in-C++
+A simple implementation of a lexical analyzer in C++ for a UNI homework.
+The lexical analyzer reads the characters from source code and convert it into tokens.
 
 Different tokens or lexemes are:
 
@@ -24,4 +21,3 @@ a	identifier
 +	operator
 b	identifier
 ;	separator
-
